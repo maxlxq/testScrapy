@@ -15,3 +15,7 @@ class TestspiderItem(scrapy.Item):
     name = scrapy.Field()
     description = scrapy.Field()
     size = scrapy.Field()
+
+class MeiZiItem(scrapy.Item):
+    text = scrapy.Field()
+    url = scrapy.Field()
